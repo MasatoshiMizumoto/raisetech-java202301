@@ -1,3 +1,5 @@
+package src;
+
 public class HelloWorld { // クラス宣言。クラス名はファイル名と同じにする
 
   public static void main(String[] args) { // メインメソッド。プログラムの開始地点。引数はString型の配列
