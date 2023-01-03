@@ -18,7 +18,7 @@ public class Main {
         System.out.println("ミス！敵にダメージを与えられない！" + "\n");
       } else {
         System.out.println(damage + "のダメージ！");
-        enemy.setHealth(enemy.getHealth() - damage);
+        enemy.makeDamage(damage);
       }
       if (enemy.getHealth() <= 0) {
         System.out.println("\nスライムを倒した！");

@@ -2,7 +2,7 @@ package src;
 
 public class Monster {
 
-  private String name;
+  final String name;
   private int health;
 
   public Monster(String name, int health) {
@@ -22,7 +22,8 @@ public class Monster {
     return health;
   }
 
-  public void setHealth(int health) {
-    this.health = health;
+  //damage logic
+  public void makeDamage(int damage) {
+    this.health -= damage;
   }
 }
