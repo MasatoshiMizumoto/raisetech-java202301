@@ -5,8 +5,7 @@ import java.util.Random;
 public class Main {
 
   public static void main(String[] args) {
-    Monster enemy;
-    enemy = new Monster("スライム", new Random().nextInt(10 - 1) + 1);
+    Monster enemy = new Monster("スライム", new Random().nextInt(10 - 1) + 1);
     System.out.println(
         "+--------------------+\n" + enemy.getName() + "があらわれた！" + "\n体力:" + enemy.getHealth()
             + "\n+--------------------+\n");
