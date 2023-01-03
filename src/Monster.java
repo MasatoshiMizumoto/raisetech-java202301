@@ -23,7 +23,7 @@ public class Monster {
   }
 
   //damage logic
-  public void makeDamage(int damage) {
+  public void takeDamage(int damage) {
     this.health -= damage;
   }
 }

@@ -21,7 +21,7 @@ public class Main {
         System.out.println("ミス！　" + enemy.getName() + "　にダメージを与えられない！" + "\n");
       } else {
         System.out.println(damage + "のダメージ！");
-        enemy.makeDamage(damage);
+        enemy.takeDamage(damage);
       }
       if (enemy.getHealth() <= 0) {
         System.out.println("\n" + enemy.getName() + "　を倒した！");
