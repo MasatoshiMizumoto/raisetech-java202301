@@ -1,6 +1,6 @@
 package src;
 
-public class HelloWorld { // クラス宣言。クラス名はファイル名と同じにする
+public class Lecture01HelloWorld { // クラス宣言。クラス名はファイル名と同じにする
 
   public static void main(String[] args) { // メインメソッド。プログラムの開始地点。引数はString型の配列
     System.out.println("#####1回#####"); // stdoutに文字列を出力

@@ -2,10 +2,10 @@ package src;
 
 import java.util.Random;
 
-public class Main {
+public class Lecture02MainClass {
 
   public static void main(String[] args) {
-    Monster enemy = new Monster("スライム", new Random().nextInt(10 - 1) + 1);
+    Lecture02Monster enemy = new Lecture02Monster("スライム", new Random().nextInt(10 - 1) + 1);
     System.out.printf("""
         +--------------------+
         %s　が　あらわれた！

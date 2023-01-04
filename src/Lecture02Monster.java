@@ -1,11 +1,11 @@
 package src;
 
-public class Monster {
+public class Lecture02Monster {
 
   final String name;
   private int health;
 
-  public Monster(String name, int health) {
+  public Lecture02Monster(String name, int health) {
     this.name = name;
     this.health = health;
   }
